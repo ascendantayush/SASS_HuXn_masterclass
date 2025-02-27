@@ -1,0 +1,39 @@
+//background /section 1 
+.card,.card-one{
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .card-content{
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        margin: 0 6rem;
+        font-family: sans-serif;
+
+        h1{
+            text-transform: uppercase;
+            font-size: 3rem;
+            font-family: serif;
+        }
+
+        p{
+            margin: 20px 0;
+            margin-bottom: 40px;
+            line-height: 1.5rem;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            background: black;
+            padding:10px 20px;
+        }
+    }
+
+    .card-img{
+        width: 400px;
+    }
+}

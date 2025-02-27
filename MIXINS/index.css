@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.cards .card {
+  width: 300px;
+  padding: 20px;
+  background: linear-gradient(to bottom, #ec4bd2, rgba(235, 75, 208, 0.3647058824));
+  border-radius: 10px;
+  color: #fff;
+  height: 400px;
+  margin: 10px;
+}
+.cards .card .card-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-family: sans-serif;
+  height: 100%;
+}
+.cards .card .card-content .price {
+  font-size: 3rem;
+}
+.cards .card .card-content .price span {
+  font-size: 1.4rem;
+}
+.cards .card .card-content .card-name {
+  font-size: 2rem;
+}
+.cards .card .card-content .card-info {
+  font-size: 14px;
+  padding: 0 20px;
+  line-height: 1.4rem;
+}
+.cards .card .card-content button {
+  background: #141414;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  width: 140px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.cards .card-two {
+  background: linear-gradient(to bottom, #2cdb60, rgba(105, 197, 7, 0.3647058824));
+}
+.cards .card-three {
+  background: linear-gradient(to bottom, rgba(6, 13, 163, 0.3647058824), #4ba1ec);
+}/*# sourceMappingURL=index.css.map */
