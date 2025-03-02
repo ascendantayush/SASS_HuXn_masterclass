@@ -29,8 +29,8 @@ To use or modify the SASS files:
 
 ## 📌 Projects
 Here are some projects included in this repo:
-- **Project 1**: [Brief Description]
-- **Project 2**: [Brief Description]
+- **Project 1**: Photography website
+- **Project 2**: Portfolio 
 - More to be added...
 
 ## 🎯 Learning Resources
